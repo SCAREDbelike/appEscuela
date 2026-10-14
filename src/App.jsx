@@ -1,6 +1,7 @@
 
 import Navbar from './components/Navbar/Navbar';
 import AlumnoCard from './components/AlumnoCard/AlumnoCard';
+import Contador from './components/Contador/Contador';
 
 function App() {
   return (
@@ -18,57 +19,62 @@ function App() {
           <AlumnoCard
             nombre="Daniel Puccio"
             carrera="Desarrollo de Software"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Maria Perez"
             carrera="Diseño Gráfico"
-            estado="Inactivo"
+            estadoInicial="Inactivo"
           />
 
           <AlumnoCard
             nombre="Carlos Mendoza"
             carrera="Administración Industrial"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Luis Ramirez"
             carrera="Mecatrónica Industrial"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Ana Torres"
             carrera="Ingeniería de Software"
-            estado="Inactivo"
+            estadoInicial="Inactivo"
           />
 
           <AlumnoCard
             nombre="Pedro Sanchez"
             carrera="Mecánica Automotriz"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Lucia Fernandez"
             carrera="Redes y Seguridad Informática"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Jorge Castillo"
             carrera="Electricidad Industrial"
-            estado="Inactivo"
+            estadoInicial="Inactivo"
           />
 
           <AlumnoCard
             nombre="Sofia Vargas"
             carrera="Diseño y Desarrollo Web"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
         </div>
+
+        <Contador
+        
+        />
+
       </div>
     </>
   );
